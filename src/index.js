@@ -1,5 +1,6 @@
 const express = require('express');
 const goalRouter = require('./routers/goal');
+
 require('./db/mongoose');
 const app = express();
 

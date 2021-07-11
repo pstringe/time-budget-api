@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-mongoose.connect('mongodb://localhost:2707/time-budget', {
+mongoose.connect('mongodb://localhost:27017/time-budget', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 }).then(() => {
